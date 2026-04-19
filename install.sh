@@ -22,6 +22,6 @@ docker pull postgres
 
 # Run a PostgreSQL container
 # Replace <your_password> with the desired password
-sudo docker run --name some-postgres -e POSTGRES_PASSWORD=<your_password> -d -p 5432:5432 postgres
+sudo docker run --name some-postgres -e POSTGRES_PASSWORD=secure_password_here -d -p 5432:5432 postgres
 
 echo 'PostgreSQL Docker setup complete.'
